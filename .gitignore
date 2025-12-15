@@ -1,0 +1,12 @@
+# ignore all csv
+*.csv
+# but allow this one
+!storms_data.csv
+
+# ignore data dir (optional, if you want)
+data/
+
+# caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
